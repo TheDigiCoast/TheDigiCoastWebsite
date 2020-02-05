@@ -10,8 +10,8 @@ import {Link} from 'react-router-dom';
                 </a> */}
                 <ul className="navbar-nav">
                     {menuItems.map(({id,label,route}) =>(
-                        <li className="nav-item">
-                            <Link key={id} to={route} className="nav-link">
+                        <li key={id} className="nav-item">
+                            <Link to={route} className="nav-link">
                                 {label}
                             </Link>  
                         </li>        

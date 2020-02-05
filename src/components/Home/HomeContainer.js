@@ -1,21 +1,15 @@
 import React from 'react'
-import AdsCard from './AdsCard'
-import compad1 from '../../Assets/compad1.jpg';
-import compad2 from '../../Assets/compad2.jpg';
+import {Link} from 'react-router-dom'
+import CarouselContainer from './CarouselContainer';
+
 
 
 function HomeContainer() {
     return (
-        <div className="row">
+        <div className="">
             <h3>Welcome to The DigiCoast Training Institute</h3>
-            <div className="col-md-4 col-lg-3">
-                <AdsCard imageUrl={compad1}/>
-            </div>
-            <div className="col-md-4 col-lg-6"></div>
-            <div className="col-md-4 col-lg-3">
-                <AdsCard imageUrl={compad2}/>
-            </div>
-
+            {/* <CarouselContainer /> */}
+            <Link className="btn btn-primary " to="/admission" >Click Here to Register</Link>
         </div>
     )
 }
