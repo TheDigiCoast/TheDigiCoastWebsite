@@ -17,7 +17,7 @@ const menuItems=[
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div>
         <AppNavbar menuItems={menuItems}/>
         <div className="container-fluid pt-5 my-4">
           <Route path="/" exact component={Home}/>

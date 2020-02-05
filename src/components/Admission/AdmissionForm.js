@@ -1,11 +1,11 @@
 import React from 'react'
 
-const courseLevels=[
-    {id:1, label: 'Level One (Novice)'},
-    {id:2, label: 'Level Two (Intermediate)'},
-    {id:3, label: 'Level Three (Advanced)'},
+// const courseLevels=[
+//     {id:1, label: 'Level One (Novice)'},
+//     {id:2, label: 'Level Two (Intermediate)'},
+//     {id:3, label: 'Level Three (Advanced)'},
     
-  ]
+//   ]
 
  function AdmissionForm() {
     return (
