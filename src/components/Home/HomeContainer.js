@@ -1,15 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import CarouselContainer from './CarouselContainer';
+import './Home.css'
 
 
 
 function HomeContainer() {
     return (
-        <div className="">
+        <div className="item-align">
             <h3>Welcome to The DigiCoast Training Institute</h3>
             {/* <CarouselContainer /> */}
-            <Link className="btn btn-primary " to="/admission" >Click Here to Register</Link>
+            <Link className="btn btn-primary btn-admiss" to="/admission" >Click Here to Register > </Link>
         </div>
     )
 }
