@@ -47,10 +47,10 @@ class AdmissionForm extends Component {
 
     render() {
         return (
-            <div className="container-sm">
+            <div className="container">
         <div className="row">
             <div className="col-md-3"></div>
-            <div className="col-md-6">
+            <div className="col-md-6 bg-dark text-white">
             <form className="was-validated" >
             <div className="form-row">
                 <div className="col form-group">
@@ -119,7 +119,7 @@ class AdmissionForm extends Component {
                 </select>
             </div>                       
         </form>
-            <div className="row">
+            <div className="row mt-3 mb-4">
                 <div className="col-md-4 col-sm-5"></div>
                 <div className="col-md-4 col-sm-2">
                     <input type="submit" 

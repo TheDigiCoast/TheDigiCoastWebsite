@@ -14,13 +14,13 @@ function CarouselContainer() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active" >
-                        <img src={compad1} className="" alt="car-item1" />
+                        <img src={compad1} className="w-100 h-5" alt="car-item1" />
                     </div>
                     <div className="carousel-item" >
-                        <img src={compad2} className="d-block w-100" alt="car-item2" />
+                        <img src={compad2} className="d-block w-100 h-5" alt="car-item2" />
                     </div>
                     <div className="carousel-item" >
-                        <img src="" className="d-block w-100" alt="car-item3" />
+                        <img src="" className="d-block w-100 h-5" alt="car-item3" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">

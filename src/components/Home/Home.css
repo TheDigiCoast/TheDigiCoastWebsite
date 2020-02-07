@@ -1,24 +1,30 @@
-.ads{
-    max-height: 40rem;
-}
 
-.item-align{
-    align-items: center;
-    text-align: center;
-}
 
-.btn-admiss{
-    margin-top: 20rem;
-}
 
 .carousel-area{
-    height: 20rem;
+    height: 7rem;
     margin-bottom: 2rem;
 }
 
+.bground{
+    
+    height: 100vh;
+}
+
+.prog-img{
+    width: 10rem;
+
+}
+.home-lower{
+    height: 20rem;    
+}
+
+.home-upper{
+    height: 20rem;
+    background-image: url(../../Assets/bg/aqua.jpg);
+    background-repeat: no-repeat;
+}
 @media only screen and (max-width: 600px) {
     /* For smaller screens*/
-    .ads{
-        max-height: 30rem;
-    }
+    
 }
