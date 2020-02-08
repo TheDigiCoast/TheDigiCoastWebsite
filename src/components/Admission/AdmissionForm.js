@@ -21,6 +21,7 @@ class AdmissionForm extends Component {
 
     componentDidMount(){
         //this.getStudents()
+        //console.log(new Date().getMonth()+1)
     }
 
 
@@ -128,8 +129,16 @@ class AdmissionForm extends Component {
         )
     }
 
-    
+    hasDiscount=()=>{
+        let month=new Date().getMonth()+1;
+        if(month===2 || month===3){
+            return "Yes"
+        }else{
+            return "No"
+        }
+    }
     addNewStudent=()=>{
+
         const studentInfo={
             firstname: this.state.firstname,
             lastname : this.state.lastname,
@@ -137,7 +146,7 @@ class AdmissionForm extends Component {
             phone:this.state.phone,
             level:this.state.level,
             dateEnrolled: this.getDate(),
-            hasDiscount: new Date().getMonth()===2 ? "Yes" :"No"
+            hasDiscount: this.hasDiscount()
         };
         studentInfo !==null &&
             db.collection('studentReg')
@@ -190,7 +199,7 @@ class AdmissionForm extends Component {
         node.className = "show alert-danger d-block text-center";
         setTimeout( ()=> {
             node.className = node.className="d-none";
-        }, 8000);
+        }, 7000);
     
     }
 

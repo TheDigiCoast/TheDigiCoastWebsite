@@ -23,7 +23,7 @@ class Home extends Component {
             <div className="container-fluid bg-dark text-white home-lower">
                 <p className="text-center"> 
                     <strong>
-                    Alright Reserved. &copy; copyrights The DigiCoast Training Institute, {new Date().getFullYear()}
+                    Alrights Reserved. &copy; copyrights The DigiCoast Training Institute, {new Date().getFullYear()}
                     </strong>
                 </p>
             </div>
