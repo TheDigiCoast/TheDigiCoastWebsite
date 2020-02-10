@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import InfoCard from './InfoCard'
-import david from '../../Assets/OwnersImg/david.jpeg'
+import david from '../../Assets/OwnersImg/david.jpg'
 import thai from '../../Assets/OwnersImg/thai.jpg'
-import wen from '../../Assets/OwnersImg/wen.jpg'
+import wendolin from '../../Assets/OwnersImg/wendolin.jpg'
 import { db } from '../../Services/Firebase'
 import './About.css'
+import Foot from '../Navigation/Foot'
 
 class About extends Component {
 
@@ -20,16 +21,16 @@ class About extends Component {
         const owners=[
             {
                 name:"Fiifi Gordon",
-                title:"Cybersecurity Analyst",
-                information:"A cybersecurity office ....lorem ipsum hahah jakalkla kjuwpe jwuwj jwjbbw nwjwj jwmwjk kwkjwk llaklakak  lalala lalala ndj kkkeien kekejlle kekek jejek kelel looejennmmj ytr kk lorem ipsum hahah jakalkla kjuwpe jwuwj jwjbbw jdmnd,ksiwj",
+                title:"IT Specialist",
+                information:"",
                 image:thai,
                 email:"gordchill@gmail.com",
                 phone:"+233546484338"
             },
             {
-                name:"David McQaphui",
-                title:"Software Engineer",
-                information:"Software engineering for about 15 yrs ....lorem ipsum hahah jakalkla kjuwpe jwuwj jwjbbw nwjwj jwmwjk kwkjwk llaklakak  lalala ndj kkkeien kekejlle kekek jejek kelel looejennmmj ytr kk lorem ipsum hahah jakalkla kjuwpe jwuwj jwjbbw jdmnd,ksiwj",
+                name:"Frank David Addae",
+                title:"IT Specialist",
+                information:"",
                 image:david,
                 email:"frankdavid.addae@gmail.com",
                 phone:"+233201794078"
@@ -37,8 +38,8 @@ class About extends Component {
             {
                 name:"Samuel Wendolin Ketechie",
                 title:"Software Engineer",
-                information:"A full-stuck developer in the fields of web development, desktop application and enterprise application development. Microsoft technologies such as Asp .Net Core, MVC, WebApi,Angular, React, Ionic and many others are some fields of development.",
-                image:wen,
+                information:"A full-stack developer in the fields of web development and enterprise application development. Microsoft & Java technologies, Angular, React, Ionic and many others are some fields of development.",
+                image:wendolin,
                 email:"samuelwendolin2@gmail.com",
                 phone:"+233247218146"
             }
@@ -62,6 +63,12 @@ class About extends Component {
                 </div>
                 
                 <hr/>
+                {/* <div className="text-center mb-3 mt-4">
+                 <h3 className="text-center mt-3">Contact Us</h3>
+                    <p></p>
+                </div> */}
+                
+                <hr/>
                 <h3 className="text-center mt-3">Locate Us</h3>
                 <div className="text-center mt-4">
                     <p>We are located at St. Martin De Porres, Dansoman, Accra - Ghana</p>
@@ -78,7 +85,8 @@ class About extends Component {
                     </div>
                 ))}
                 </div>
-                
+                <hr/>
+                <Foot/>
             </div>
         )
     }

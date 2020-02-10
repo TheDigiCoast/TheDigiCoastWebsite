@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Home.css'
 import HomeContainer from './HomeContainer';
+import Foot from '../Navigation/Foot';
 
 
 class Home extends Component {
@@ -8,7 +9,7 @@ class Home extends Component {
         return (
             <div className="bground">
             <div className="bg-white home-upper">
-            <h3 className="text-dark text-center pt-5">The DigiCoast Training Institute</h3>            
+            <h3 className="text-dark text-center pt-5 pr-5 mr-5">The DigiCoast Training Institute</h3>            
             </div>
             <div className="row">
                 <div className="col-md-1 col-lg-1 col-sm-1">
@@ -20,13 +21,7 @@ class Home extends Component {
                 </div>
             </div>
 
-            <div className="container-fluid bg-dark text-white home-lower">
-                <p className="text-center"> 
-                    <strong>
-                    Alrights Reserved. &copy; copyrights The DigiCoast Training Institute, {new Date().getFullYear()}
-                    </strong>
-                </p>
-            </div>
+           <Foot/>
         </div>
         )
     }

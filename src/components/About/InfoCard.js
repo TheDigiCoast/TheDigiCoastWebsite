@@ -4,7 +4,7 @@ import './About.css'
 function InfoCard({ownerInfo}) {
     return (
         <div>
-            <div className="card mb-3 bg-dark text-white">
+            <div className="card infocard mb-3 bg-info text-white">
                 <div className="row no-gutters">
                     <div className="col-lg-5 col-md-5 col-sm-5">
                         <img className="card-img card-style-img" src={ownerInfo.image} alt="owners" />
@@ -21,7 +21,7 @@ function InfoCard({ownerInfo}) {
                             <p className="card-text">
                                 Phone : <small>{ownerInfo.phone}</small>
                             </p>
-                            <p className="card-text">{ownerInfo.information}</p>                            
+                            {/* <p className="card-text"><small>{ownerInfo.information}</small></p>                             */}
                         </div>
                     </div>
                 </div>

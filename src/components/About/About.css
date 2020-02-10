@@ -1,7 +1,7 @@
 
 .card-style-img{
     width: 13rem;
-    height: 18rem;
+    height: 13rem;
 }
 
 .map{
@@ -9,10 +9,29 @@
     height: 25rem;
     border:0;
 }
+
+.infocard{
+    max-width: 100%;
+    width: 100%;
+    max-height: 50vh;
+    height: 30vh;
+}
+
 @media only screen and (max-width: 600px){
     .map{
         width: 15rem;
         height: 15rem;
+    }
+
+    .card-style-img{
+        width: 11rem;
+        height: 20rem;
+    }
+
+    .infocard{
+        width: 100%;
+        max-height: 100vh;
+        height: 85vh;
     }
 }
 
@@ -21,5 +40,11 @@
         width: 25rem;
         height: 15rem;
     }
+
+    
+}
+
+@media only screen and (max-width: 1200px){
+    
 }
 
