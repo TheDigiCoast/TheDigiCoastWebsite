@@ -45,17 +45,17 @@ class AdmissionForm extends Component {
                 <form className="was-validated" >
                 <div className="form-row">
                     <div className="col form-group">
-                        <label>First Name : </label>
+                        <label>First-Middle Names : </label>
                         <input type="text" 
                         className="form-control" 
                         id="firstname" 
                         name="firstname"
                         onChange={e=>this.inputChange(e)}
                         value={this.state.firstname}
-                        placeholder="Enter your first name" 
+                        placeholder="Enter your first and middle names" 
                         required autoComplete="off"/>
                         <div className="valid-feedback"> Valid </div>
-                        <div className="invalid-feedback"> Please enter your first name</div>
+                        <div className="invalid-feedback"> Please enter your first and middle names</div>
                     </div>
                     <div className="form-group">
                         <label>Last Name : </label>

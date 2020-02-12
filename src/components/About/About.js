@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import InfoCard from './InfoCard'
 import david from '../../Assets/OwnersImg/david.jpg'
-import thai from '../../Assets/OwnersImg/thai.jpg'
+import fiifi from '../../Assets/OwnersImg/fiifi.jpg'
 import wendolin from '../../Assets/OwnersImg/wendolin.jpg'
 import { db } from '../../Services/Firebase'
 import './About.css'
@@ -23,7 +23,7 @@ class About extends Component {
                 name:"Fiifi Gordon",
                 title:"IT Specialist",
                 information:"",
-                image:thai,
+                image:fiifi,
                 email:"gordchill@gmail.com",
                 phone:"+233546484338"
             },
@@ -63,12 +63,13 @@ class About extends Component {
                 </div>
                 
                 <hr/>
+                <br/>
                 {/* <div className="text-center mb-3 mt-4">
                  <h3 className="text-center mt-3">Contact Us</h3>
                     <p></p>
-                </div> */}
+                </div> <hr/>*/}
                 
-                <hr/>
+                
                 <h3 className="text-center mt-3">Locate Us</h3>
                 <div className="text-center mt-4">
                     <p>We are located at St. Martin De Porres, Dansoman, Accra - Ghana</p>
