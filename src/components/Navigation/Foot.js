@@ -11,9 +11,14 @@ export default function Foot() {
                 <span><Link className="text-white link-style" to="/about">About Us</Link></span> | &nbsp;
                 <span><Link className="text-white link-style" to="/admission">Admission</Link></span>
                 <br/>
-                    <small>
-                        Alrights Reserved. &copy; copyrights The DigiCoast Training Institute, {new Date().getFullYear()}
-                    </small>
+                <span>Follow Us on
+                 <a className="text-white link-style" target="blank" href="https://www.facebook.com/thedigicoast/">
+                    <span className="glyphicon glyphicon-facebook"></span>  Facebook </a>
+                </span>
+                <br/>
+                <small>
+                    Alrights Reserved. &copy; copyrights The DigiCoast Training Institute, {new Date().getFullYear()}
+                </small>
                 </p>
             </div>
         </div>

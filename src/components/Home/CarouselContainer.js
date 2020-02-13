@@ -4,9 +4,10 @@ import Slide from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './Slide.css'
-import studentwrite from '../../Assets/slides/studentwrite.jpg'
 import laptop from '../../Assets/slides/laptop.jpg'
 import desktop from '../../Assets/slides/desktop.jpg'
+import istudent from '../../Assets/slides/istudent.jpg'
+
  class CarouselContainer extends Component {
 
    
@@ -14,7 +15,7 @@ import desktop from '../../Assets/slides/desktop.jpg'
         const settings = {
             dots: true,
             infinite: true,
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             speed: 3000,
@@ -63,7 +64,7 @@ import desktop from '../../Assets/slides/desktop.jpg'
                         <img className="slide-img" src={laptop} alt="slide"/>
                     </div>
                     <div>
-                        <img className="slide-img" src={studentwrite} alt="slide"/>
+                        <img className="slide-img" src={istudent} alt="slide"/>
                     </div>            
                 </Slide>
             </div>
