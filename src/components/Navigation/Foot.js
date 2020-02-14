@@ -4,8 +4,8 @@ import './Nav.css'
 
 export default function Foot() {
     return (
-        <div>
-             <div className="container-fluid bg-info text-white home-lower">
+        <div className="bottom">
+             <div className="container-fluid bg-primary text-white home-lower">
                 <p className="text-center">
                 <span><Link className="text-white link-style" to="/">Home</Link></span> | &nbsp; 
                 <span><Link className="text-white link-style" to="/about">About Us</Link></span> | &nbsp;

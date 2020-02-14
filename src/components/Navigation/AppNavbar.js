@@ -6,7 +6,7 @@ import './Nav.css'
 
  function AppNavbar({menuItems}) {
     return (
-            <nav className="navbar navbar-expand-sm navbar-dark text-dark bg-info fixed-top">
+            <nav className="navbar navbar-expand-sm navbar-primary text-white bg-primary fixed-top">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     <Link className="navbar-brand" to="#">The DigiCoast</Link>
@@ -19,7 +19,7 @@ import './Nav.css'
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">                                  
                         {menuItems.map(({id,label,route}) =>(
                             <li key={id} className="nav-item">
-                                <Link to={route} className="nav-link">
+                                <Link to={route} className="nav-link text-white">
                                     {label}
                                 </Link>  
                             </li>        

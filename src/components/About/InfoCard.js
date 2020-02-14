@@ -4,7 +4,7 @@ import './About.css'
 function InfoCard({ownerInfo}) {
     return (
         <div>
-            <div className="card infocard mb-3 bg-info text-dark">
+            <div className="card infocard mb-3 bg-primary text-white">
                 <div className="row no-gutters">
                     <div className="col-lg-5 col-md-5 col-sm-5">
                         <img className="card-img rounded card-style-img" src={ownerInfo.image} alt="owners" />

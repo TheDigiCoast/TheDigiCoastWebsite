@@ -29,14 +29,13 @@
 }
 
 .couseCardHead{
-    background-color: rgb(69, 205, 230);
+    background-color:#007bff;
     padding-bottom: 1rem;
 }
 
 .home-lower{
     height: 10rem;
-    padding-top: 05rem;
-    bottom: 0;
+    padding-top: 5rem;
 }
 
 .home-upper{
